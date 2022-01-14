@@ -10725,16 +10725,7 @@
         background-position: center center;
         position: relative;
         padding: 4em 0;
-        background: #1c383f;
-        background: -moz-linear-gradient(-45deg, #217f88 0%, #2cbcbc 100%);
-        background: -webkit-gradient(left top, right bottom, color-stop(0%, #217f88), color-stop(100%, #2cbcbc));
-        background: -webkit-linear-gradient(-45deg, #217f88 0%, #2cbcbc 100%);
-        background: -o-linear-gradient(-45deg, #217f88 0%, #2cbcbc 100%);
-        background: -ms-linear-gradient(-45deg, #217f88 0%, #2cbcbc 100%);
-        background: -webkit-linear-gradient(315deg, #217f88 0%, #2cbcbc 100%);
-        background: -o-linear-gradient(315deg, #217f88 0%, #2cbcbc 100%);
-        background: linear-gradient(135deg, #217f88 0%, #2cbcbc 100%);
-        filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#217f88', endColorstr='#00dc94', GradientType=1);
+        background: #fff;
     }
     
     .ftco-quote {
@@ -12772,32 +12763,6 @@
         background: #707070;
         margin-bottom: 10px;
     }
-    
-    .swiper-slide {
-        text-align: center;
-        font-size: 18px;
-        background: #fff;
-        /* Center slide text vertically */
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: -webkit-flex;
-        display: flex;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        -webkit-justify-content: center;
-        justify-content: center;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        -webkit-align-items: center;
-        align-items: center;
-    }
-    
-    .swiper-slide img {
-        display: block;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
     /* Whastsapp */
     /* * {
   margin: 0;
@@ -13081,16 +13046,14 @@ width: 800px;
         /* hi-res laptops and desktops */
     }
     /* Partner slider */
-    
-    .swiper {
+    /* .swiper {
         width: 100%;
         height: 100%;
-    }
+    } */
     
     .swiper-slide {
         text-align: center;
         font-size: 18px;
-        /* background: #fff; */
         display: -webkit-box;
         display: -ms-flexbox;
         display: -webkit-flex;

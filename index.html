@@ -935,46 +935,33 @@
         <div class="parallax-img d-flex align-items-center">
             <div class="container">
                 <div class="row d-flex justify-content-center">
-                    <div class="col-md-7 text-center heading-section heading-section-white ftco-animate">
-                        <h2>Parceiros</h2>
-                        <p>A sua seguradora é nosso parceiro</p>
-                        <!-- <div class="row d-flex justify-content-center mt-5">
-				  <div class="col-md-8">
-					<form action="#" class="subscribe-form">
-					  <div class="form-group d-flex">
-						<input type="text" class="form-control" placeholder="Escreva o seu Email">
-						<input type="submit" value="Subscrever" class="submit px-3">
-					  </div>
-					</form>
-				  </div>
-				</div> -->
+                    <div class="col-md-7 text-center heading-section ftco-animate">
+                        <h2 style="color: #477a81 !important;">Parceiros</h2>
+                        <p style="color: #21aebb;">A sua seguradora é nosso parceiro</p>
+
                     </div>
                 </div>
 
                 <!-- Swiper -->
                 <div class="swiper mySwiper">
                     <div class="swiper-wrapper">
-                        <div class="swiper-slide"><img src="images/SEGURADORAS/Cigna-300px.png" alt=""></div>
-                        <div class="swiper-slide"><img src="images/SEGURADORAS/Cigna-300px.png" alt=""></div>
-                        <div class="swiper-slide"><img src="images/SEGURADORAS/Cigna-300px.png" alt=""></div>
-                        <div class="swiper-slide"><img src="images/SEGURADORAS/Cigna-300px.png" alt=""></div>
-                        <div class="swiper-slide"><img src="images/SEGURADORAS/Cigna-300px.png" alt=""></div>
-                        <div class="swiper-slide"><img src="images/SEGURADORAS/Cigna-300px.png" alt=""></div>
-                        <div class="swiper-slide"><img src="images/SEGURADORAS/Cigna-300px.png" alt=""></div>
-                        <div class="swiper-slide"><img src="images/SEGURADORAS/Cigna-300px.png" alt=""></div>
-                        <div class="swiper-slide"><img src="images/SEGURADORAS/Cigna-300px.png" alt=""></div>
+                        <div class="swiper-slide"><img src="images/SEGURADORAS/Índico.png" alt=""></div>
+                        <div class="swiper-slide"><img src="images/SEGURADORAS/Prime.png" alt=""></div>
+                        <div class="swiper-slide"><img src="images/SEGURADORAS/Life Healthcare.png" alt=""></div>
+                        <div class="swiper-slide"><img src="images/SEGURADORAS/Medihealth.png" alt=""></div>
+                        <div class="swiper-slide"><img src="images/SEGURADORAS/Bettercare.png" alt=""></div>
+                        <div class="swiper-slide"><img src="images/SEGURADORAS/UniHealth.png" alt=""></div>
+                        <div class="swiper-slide"><img src="images/SEGURADORAS/Liberty-350.png" alt=""></div>
+                        <div class="swiper-slide"><img src="images/SEGURADORAS/Fidelidade-360px.png" alt=""></div>
+                        <div class="swiper-slide"><img src="images/SEGURADORAS/Tranquilidade.png" alt=""></div>
+                      
+                     
                     </div>
 
                     <br><br>
                     <div class="swiper-pagination"></div>
 
                 </div>
-
-
-
-
-
-
 
             </div>
         </div>
@@ -1077,7 +1064,7 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="modalRequestLabel">Agendar Consulta</h5>
+                    <h5 class="modal-title" id="modalRequestLabel">Agendar Consulta/Exame</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
@@ -1087,27 +1074,8 @@
 
 
                         <div class="form-group">
-                            <div class="select-wrap">
-                                <select name="" id="" class="form-control">
-					<option value="">Nefrologia</option>
-					<option value="">Clínica geral</option>
-					<option value="">Pediatria</option>
-					<option value="">Psicologia</option>
-					<option value="">Ginecologia</option>
-					<option value="">Nutrição</option>
-					<option value="">Urulogia</option>
-					<option value="">Dermatologia</option>
-					<option value="">Medicina Ocupacional</option>
-					<option value="">Medicina Intern</option>
-					<option value="">Otorinolaringologia</option>
-					<option value="">Ortopedia</option>
-					<option value="">Medicina de familía</option>
-					<option value="">Terapia de fala</option>
-					<option value="">Cardiologia</option>
-					<option value="">Dermatologia</option>
-	
-				  </select>
-                            </div>
+                            <!-- <label for="appointment_name" class="text-black">Full Name</label> -->
+                            <input type="text" class="form-control" id="appointment_name" placeholder="Especialidade">
                         </div>
 
 
@@ -1119,12 +1087,17 @@
                             <!-- <label for="appointment_email" class="text-black">Email</label> -->
                             <input type="text" class="form-control" id="appointment_email" placeholder="Email">
                         </div>
+
+                        <div class="form-group">
+                            <!-- <label for="appointment_name" class="text-black">Full Name</label> -->
+                            <input type="text" class="form-control" id="appointment_name" placeholder="Médico(a) [Opcional]">
+                        </div>
                         <div class="row">
 
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <!-- <label for="appointment_time" class="text-black">Time</label> -->
-                                    <input type="text" class="form-control appointment_time" placeholder="Telefone">
+                                    <input type="text" class="form-control" placeholder="Telefone">
                                 </div>
                             </div>
 

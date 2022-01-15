@@ -290,7 +290,11 @@
  var swiper = new Swiper(".mySwiper", {
      slidesPerView: 6,
      spaceBetween: 30,
-     slidesPerGroup: 3,
+     autoplay: {
+         delay: 5000,
+         disableOnInteraction: false
+     },
+     //  slidesPerGroup: 3,
      loop: true,
      loopFillGroupWithBlank: true,
      pagination: {
@@ -301,6 +305,24 @@
          nextEl: ".swiper-button-next",
          prevEl: ".swiper-button-prev",
      },
+     breakpoints: {
+         320: {
+             slidesPerView: 2,
+             spaceBetween: 40
+         },
+         480: {
+             slidesPerView: 3,
+             spaceBetween: 60
+         },
+         640: {
+             slidesPerView: 4,
+             spaceBetween: 70
+         },
+         992: {
+             slidesPerView: 6,
+             spaceBetween: 100
+         }
+     }
  });
 
 

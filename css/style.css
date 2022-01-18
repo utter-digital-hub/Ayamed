@@ -10074,11 +10074,11 @@ h5,
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
     margin-top: -10px;
-    -moz-transition: all 0.7s ease;
-    -o-transition: all 0.7s ease;
-    -webkit-transition: all 0.7s ease;
-    -ms-transition: all 0.7s ease;
-    transition: all 0.7s ease;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    transition: all 0.4s ease;
     opacity: 0;
 }
 

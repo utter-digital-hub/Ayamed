@@ -9803,7 +9803,7 @@ h5,
     .ftco-navbar-light {
         background: #21555c !important;
         position: relative;
-        top: 0;
+        /* top: 50px; */
     }
 }
 
@@ -9819,6 +9819,8 @@ h5,
 @media (min-width: 768px) {
     .ftco-navbar-light .navbar-brand {
         color: #fff;
+        padding-top: .2rem;
+        padding-bottom: .2rem;
     }
 }
 
@@ -9830,13 +9832,14 @@ h5,
 
 .ftco-navbar-light .navbar-nav>.nav-item>.nav-link {
     font-size: 15.5px;
-    padding-top: .9rem;
-    padding-bottom: .9rem;
-    padding-left: 20px;
-    padding-right: 20px;
+    /* padding-top: .2rem;
+    padding-bottom: .2rem;
+    padding-left: 10px;
+    padding-right: 10px; */
     font-weight: 400;
     color: #fff !important;
     opacity: 1 !important;
+    text-transform: capitalize;
 }
 
 @media (min-width: 992px) {
@@ -9851,10 +9854,11 @@ h5,
     }
 }
 
-.ftco-navbar-light .navbar-nav>.nav-item>.nav-link:hover {
+
+/* .ftco-navbar-light .navbar-nav>.nav-item>.nav-link:hover {
     color: rgba(255, 255, 255, 0.8);
     border-bottom: 3px solid rgba(255, 255, 255, 0.2);
-}
+} */
 
 .ftco-navbar-light .navbar-nav>.nav-item .dropdown-menu {
     border: none;
@@ -11484,6 +11488,7 @@ textarea.form-control {
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#2f89fc', endColorstr='#00dc94', GradientType=1);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    text-transform: capitalize;
 }
 
 @media (max-width: 767.98px) {
@@ -13105,3 +13110,16 @@ a[href="#top"]:hover {
     object-fit: cover;
     /* padding-bottom: 40px; */
 }
+
+
+/* Google Translate*/
+
+
+/* 
+#google_translate_element {
+    display: none !important;
+}
+
+.goog-te-banner-frame {
+    display: none !important;
+} */
